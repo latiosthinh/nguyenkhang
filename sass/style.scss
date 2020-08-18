@@ -1,0 +1,38 @@
+/*
+Theme Name: Flatsome Child Theme
+Theme URI: https://gretathemes.com/wordpress-themes/estar/
+Version: 1.0
+Description: An example child theme that can be used as a starting point for custom development.
+Author: eLightUp Team
+Author URI: https://elightup.com/
+template: Flatsome
+*/
+
+// @font-face {
+// 	font-family: 'Google Sans';
+// 	src: url('fonts/GoogleSans-Regular.otf') format('opentype');
+// 	font-weight: normal;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'Google Sans Medium';
+// 	src: url('fonts/GoogleSans-Medium.otf') format('opentype');
+// 	font-weight: 500;
+// 	font-style: normal;
+// }
+
+// @font-face {
+// 	font-family: 'Google Sans Bold';
+// 	src: url('fonts/GoogleSans-Bold.otf') format('opentype');
+// 	font-weight: 700;
+// 	font-style: normal;
+// }
+
+@import 'header';
+@import 'home-page';
+@import 'footer';
+@import 'archive-product';
+@import 'single-product';
+@import 'cart';
+@import 'checkout';

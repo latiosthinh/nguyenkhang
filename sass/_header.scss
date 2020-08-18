@@ -1,0 +1,23 @@
+#mega-menu-wrap {
+	width: auto;
+	background-color: transparent;
+
+	#mega-menu-title {
+		color: #222;
+		padding-right: 25px;
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	#mega_menu {
+		width: 310px;
+		z-index: 99;
+	}
+}
+
+.header-nav.nav > li > a {
+    color: #222222;
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 500;
+}
