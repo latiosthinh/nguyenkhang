@@ -127,8 +127,22 @@ span.onsale {
 
 .slide-products {
 
+	.flickity-viewport {
+		@media all and (min-width:991px) {
+			width: calc( 100% + 20px ) !important;
+			
+			.row-xsmall>.col {
+				margin-bottom: 25px;
+				padding: 0px 10px;
+			}
+		}
+	}
+
+	.flickity-prev-next-button {
+		top: 31%;
+	}
+
 	.col-pro-slider {
-		padding-right: 0;
 
 		span.price {
 			width: 43%;
@@ -149,7 +163,12 @@ span.onsale {
 
 	.col-pro-slider-2 {
 
-		padding-left: 5px;
+
+		> .col-inner {
+			> .row {
+				height: 100%;
+			}
+		}
 		
 		.box-text.text-left {
 			padding: 12px;
